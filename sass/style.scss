@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:wght@600&display=swap');
+$color-main: #1e272e;
+$color-background: #ffffff;
+$color-text: #ffd32a;
+$color-splash: #808e9b;
+
+$font-family: 'Style Script', cursive;
+$font-header: 'Roboto Condensed', sans-serif;
+$transition: all 0.5s;
+
+
+.navigation {
+  font-size: 16px;
+  background-color: $color-main;
+  color: $color-background;
+  padding: 12px 0 12px 0;
+  margin: 0;
+  text-decoration: none; 
+}
+
+.card-title{
+  margin:0 auto;
+  display:block;
+  aligin: center;
+}
+
+.page-intro{
+  position: relative;
+  margin: auto;
+}
+
+.card-img-overlay{
+ text-align:center;
+  color: #ffffff;
+}
+
+.button {
+  background-color: $color-main;
+  color: #ffd32a;
+  text-align: center;
+}
+
+.navbar-brand{
+  color:#ffd32a;
+  font-family: font-family: 'Style Script', cursive;
+}
+
+.container{
+  text-align:center;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card{
+  text-align: center;
+}
+
+.card-text{
+  color: #808e9b;
+  text-align: center;
+}
+
+  
+/*LINKS*/
+
+.social-links{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  border: 1px solid $color-main;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+  transition: $transition;
+}
+
+.social-links li:hover {
+  background: $color-main;
+}
+
+.social-links li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #1e272e;
+  transition: $transition;
+}        
+  
+.page-footer {
+    background: $color-main;
+    display: inline-block;
+    width: 50%;
+    flex-wrap: nowrap;
+}
