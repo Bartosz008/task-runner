@@ -27,6 +27,12 @@ $transition: all 0.5s;
 .page-intro {
   position: relative;
   margin: auto;
+  background: url('https://i.postimg.cc/GtMZTXm1/pexels-visualspixels-1581687.jpg');
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 .card-img-overlay {
@@ -111,8 +117,6 @@ $transition: all 0.5s;
 }        
   
 .page-footer {
-    background: $color-main;
     display: inline-block;
-    width: 50%;
     flex-wrap: nowrap;
 }
